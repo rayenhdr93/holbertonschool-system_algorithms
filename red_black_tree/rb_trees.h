@@ -42,4 +42,5 @@ rb_tree_t *rb_insert_fixup_LEFT(rb_tree_t **tree, rb_tree_t *new);
 rb_tree_t *rb_insert_fixup_RIGHT(rb_tree_t **tree, rb_tree_t *new);
 void rb_rotate_left(rb_tree_t **tree, rb_tree_t *new);
 void rb_rotate_right(rb_tree_t **tree, rb_tree_t *new);
+rb_tree_t *array_to_rb_tree(int *array, size_t size);
 #endif /* _RB_TREES_H_ */
